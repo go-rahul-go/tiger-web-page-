@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tigers</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        h1{
+            text-align:center;
+            font-weight:700;
+            font-size:3.5em;
+            background-image:linear-gradient(45deg,rgb(246, 245, 241),rgb(253, 167, 38) ,black);
+            color:white;
+            text-shadow: 2px 2px 2px rgb(27, 27, 27);
+            padding:1.2% 0%;
+            border-bottom:2px solid black;
+        }
+        
+        .flex-container{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            margin:2% 2%;
+            gap:2em;
+            padding:0 0 2% 0;
+            border-bottom:2px solid black;
+        }
+        .box1{
+            border:2px solid black;
+            background-color: papayawhip;
+            padding:15px;
+            font-size:2em;
+            width:70%;
+            text-align:left;
+        }
+        .picture-card{
+            border:2px solid black;
+            text-align:center;
+            font-size:1.5em;
+            background-color: rgb(250, 250, 250);
+        }
+        .picture-card img{
+            width:20vw;
+            
+            padding:10px;
+        }
+        
+        h2{
+            margin:2% 2%;
+            font-size:2.5em;
+        }
+        .flex-container2{
+            width:80%;
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            gap:10px;
+            justify-content:center;
+            margin:auto;
+            background-color: blanchedalmond;
+            padding:2%;
+            border:2px dashed black;
+        }
+        .flex-container2 p{
+            padding:2% 0%;
+        }
+        .facts{
+            width:70%;
+            background-image: url("./images/background-tiger.jpg");
+            margin:2% auto;
+            font-size:2em;
+            color:rgb(255, 255, 255);
+            /* opacity:0.5; */
+            text-shadow: 2px 2px black;
+        }
+        ol li{
+            padding:1% 2%;
+            list-style-position:inside;
+        }
+        .footer-flex-container{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            background-color: papayawhip;
+            gap:2em;
+            justify-content: center;
+            padding:1.5%;
+        }
+        .footer-flex-container>div{
+            border:2px solid black;
+            width:25%;
+            padding:2%;
+            font-size:1.6em;
+            justify-content:center;
+        }
+        .footer-flex-container h2{
+            text-align:center;
+            flex-basis:100%;
+            padding:2% 2%;
+            border-bottom:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tigers of the world</h1>
+    </header>
+    <main>
+        <div class="flex-container">
+            <div class="box1">
+                <h2>Tiger</h2>
+                <p>
+                    The tiger is the largest living cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange fur with a white underside. An apex predator, it primarily preys on ungulates, such as deer and wild boar.
+                </p>
+            </div>
+            <div class="picture-card">
+                <img src="/images/tiger.avif" alt="image of a tiger">
+                <p>Mighty Tiger</p>
+            </div>
+        </div>
+        <h2>Classification of tigers</h2>
+        <div class="flex-container2">
+            
+            <div class="picture-card"><img src="./images/bengal_tiger.webp" alt="royal bengal tiger">
+            <p>Royal Bengal tiger</p></div>
+            <div class="picture-card">
+                <a href="./images/caspian.jpg" target="_blank">
+                    <img src="./images/caspian.jpg" alt="caspian tiger">
+                </a>
+                <p>Caspian tiger(extinct)</p>
+            </div>
+            <div class="picture-card">
+                <a href="./images/siberian-tiger.jfif" target="_blank">
+                    <img src="./images/siberian-tiger.jfif">
+                </a>
+                <p>Siberian tiger</p>
+            </div>
+            <div class="picture-card">
+                <a href="./images/chinese_tiger.jfif" target="_blank">
+                    <img src="./images/chinese_tiger.jfif" alt="">
+                </a>
+                <p>Chinese tiger</p>
+            </div>
+            <div class="picture-card">
+                <a href="./images/malayan_tiger.jfif" target="_blank">
+                    <img src="./images/malayan_tiger.jfif" alt="">
+                </a>
+                <p>Malayan tiger</p>
+            </div>
+            <div class="picture-card">
+                <a href="./images/Sumatran tiger.jfif" target="_blank">
+                    <img src="./images/Sumatran tiger.jfif">
+                </a>
+                <p>Sumatran Tiger</p>
+            </div>
+            <div  class="picture-card">
+                <a href="./images/indonasain_tiger.jfif" target="_blank">
+                    <img src="./images/indonasain_tiger.jfif" alt="">
+                </a>
+                <p>Indonasian Tiger</p>
+            </div>
+        </div>
+        <h2>20 Facts You Probably Didn’t Knew About Tigers</h2>
+        <div class="facts">
+            <ol>
+                <li>Tigers are the largest amongst other wild cats</li>
+                <li>A punch from a Tiger may kill you</li>
+                <li>Tigers are nocturnal animals</li>
+                <li>Tiger cubs are born blind and only half of the cubs survive</li>
+                <li>Tigers love to swim and play in the water</li>
+                <li>Tigers live for about 25 years</li>
+                <li>A group of Tigers are called an ambush or streak</li>
+                <li>Tigers can sprint at over 60 kilometre/hour</li>
+                <li>Tigers do not normally view humans as a prey</li>
+                <li>Tiger stripes are also found on their skin</li>
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-flex-container">
+            <h2>Footer Section</h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit a harum praesentium in fugit adipisci incidunt pariatur iusto magni, veniam labore. Voluptatem ipsam cum ullam. Ex minima nulla reprehenderit numquam natus dolor. Pariatur, totam.</p>
+            </div>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima blanditiis porro dolor architecto, ea sunt excepturi eligendi sapiente deserunt? Rerum tempore, hic facilis soluta delectus, adipisci esse aliquid libero labore illum error ipsum facere?
+                </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas facere totam blanditiis soluta vitae! Nesciunt odio libero, quisquam debitis aliquid excepturi sint iure placeat ducimus, ut soluta culpa nulla magni eius aperiam incidunt nisi quaerat quo omnis vitae quae, illum quos non! Fugit eius ad necessitatibus aspernatur ipsam. Aperiam, tempore?</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
